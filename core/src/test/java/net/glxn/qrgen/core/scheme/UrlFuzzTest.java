@@ -14,12 +14,12 @@ public class UrlFuzzTest {
 
 	private static final String URL = "http://github.com/kenglxn/QRGen";
 
-	@Test
+	@Fuzz
 	public void testParseString() {
 		assertTrue(Url.parse(URL).getUrl().equals(URL));
 	}
 
-	@Test
+	@Fuzz
 	public void testToString() {
 		assertTrue(Url.parse(URL).toString().equals(URL));
 	}
