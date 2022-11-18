@@ -170,6 +170,11 @@
                 <version>${fest-android.version}</version>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>edu.berkeley.cs.jqf</groupId>
+                <artifactId>jqf-fuzz</artifactId>
+                <version>1.7</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
