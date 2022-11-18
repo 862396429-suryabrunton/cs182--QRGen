@@ -27,3 +27,4 @@ core/.classpath
 bin/
 gen/
 settings.xml
+.vscode/settings.json
